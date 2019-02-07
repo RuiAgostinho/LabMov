@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/RuiAgostinho/LabMov/precache-manifest.09c88aa0413e57e0b21400df5de14039.js"
+  "/RuiAgostinho/LabMovR/precache-manifest.132bd2f3cdc115b3020c99f77423aaa8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/RuiAgostinho/LabMov/index.html", {
+workbox.routing.registerNavigationRoute("/RuiAgostinho/LabMovR/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
