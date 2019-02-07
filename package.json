@@ -2,8 +2,10 @@
   "name": "labmov_react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/RuiAgostinho/LabMov.git",
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "react": "^16.8.1",
@@ -15,7 +17,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d buil",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
