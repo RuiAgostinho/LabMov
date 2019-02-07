@@ -2,7 +2,7 @@
   "name": "labmov_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/RuiAgostinho/LabMov.git",
+  "homepage": "https://RuiAgostinho.github.io/LabMovR/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
